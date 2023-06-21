@@ -25,7 +25,7 @@ body{
     font-size: 24px;
 }
 
-.navbar button {
+#home button {
     background-color: #fff;
     color: #E63946;
     font-size: 16px;
