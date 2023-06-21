@@ -1,0 +1,39 @@
+﻿:root {
+    --primary-color: #19C37D;
+    --text-color: #363636;
+    /* font-family: 'Inter', sans-serif; */
+}
+body{
+ 
+}
+
+#home{
+    background: url(./../img/home.png) no-repeat;
+    min-height: 100vh;
+}
+.navbar.transparent {
+    background-color: transparent !important;
+    box-shadow: none !important;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.navbar button {
+    margin-right: 40px;
+}
+.navbar a {
+    color: #fff;
+    font-size: 24px;
+}
+
+.navbar button {
+    background-color: #fff;
+    color: #E63946;
+    font-size: 16px;
+    font-family: Inter;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding: 8px;
+    padding-inline: 20px;
+}
