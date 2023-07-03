@@ -76,5 +76,40 @@ body{
 /* proposal */
 
 #proposal {
-    
+    margin-top: 154px;
+    margin-bottom: 120px;
+}
+.grid-proposal {
+    width: 1000px;
+}
+#proposal h2 {
+    font-family: Poppins;
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.card-proposal {
+    width: 300px;
+    height: 200px;
+    background: #fff;
+    border: 1px solid #0c44ac;
+    border-radius: 2%;
+    padding: 8px;
+}
+
+
+
+
+
+
+
+
+
+/* footer */
+
+#footer {
+    background: #E63946;
+    height: 421px;
+    margin-top: 80px;
 }
