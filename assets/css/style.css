@@ -38,25 +38,26 @@ body{
     padding-inline: 20px;
 }
 .grid-header{
-    margin-top: 26vh;
+    margin-top: 25vh;
 }
 .text-header{
-    width: 600px;
+    width: 560px;
     height: 358.94px;
     gap: 36px;
 }
 .text-header h2{
-    font-size: 46px;
+    font-size: 43px;
 }
 .text-header > p{
     font-size: 20px;
     width: 400px;
 }
 .text-header > p:first-child{
-    font-size: 36px;
+    font-size: 34px;
 }
 
 /* frame-status */
-.frame-status{
-    
+#frame-status{
+    height: 149px;
+    background-color: #0c44ac;
 }
