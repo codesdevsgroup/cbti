@@ -105,6 +105,13 @@ body{
 
 
 
+#feedback{
+    margin-top: 80px; 
+}
+
+#feedback h2 {
+    width: 1037px;
+}
 
 /* footer */
 
