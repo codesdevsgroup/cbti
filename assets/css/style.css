@@ -4,7 +4,7 @@
     /* font-family: 'Inter', sans-serif; */
 }
 body{
- 
+    font-family: 'Poppins', sans-serif;
 }
 /* header*/
 
@@ -44,6 +44,7 @@ body{
     width: 560px;
     height: 358.94px;
     gap: 36px;
+    color: #fff;
 }
 .text-header h2{
     font-size: 43px;
@@ -60,4 +61,20 @@ body{
 #frame-status{
     height: 149px;
     background-color: #0c44ac;
+    color: #fff;
+}
+#frame-status p {
+    font-size: 50px;
+    padding: 0;
+    margin-bottom: 0;
+    margin-top: 24px;
+}
+#frame-status h5 {
+    font-size: 16px;
+}
+
+/* proposal */
+
+#proposal {
+    
 }
