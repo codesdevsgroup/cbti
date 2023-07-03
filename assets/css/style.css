@@ -6,6 +6,7 @@
 body{
  
 }
+/* header*/
 
 #home{
     background: url(./../img/home.png) no-repeat;
@@ -24,7 +25,6 @@ body{
     color: #fff;
     font-size: 24px;
 }
-
 #home button {
     background-color: #fff;
     color: #E63946;
@@ -36,4 +36,27 @@ body{
     text-align: left;
     padding: 8px;
     padding-inline: 20px;
+}
+.grid-header{
+    margin-top: 26vh;
+}
+.text-header{
+    width: 600px;
+    height: 358.94px;
+    gap: 36px;
+}
+.text-header h2{
+    font-size: 46px;
+}
+.text-header > p{
+    font-size: 20px;
+    width: 400px;
+}
+.text-header > p:first-child{
+    font-size: 36px;
+}
+
+/* frame-status */
+.frame-status{
+    
 }
