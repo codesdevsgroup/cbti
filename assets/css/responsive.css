@@ -1,1 +1,14 @@
-﻿
+﻿@media (min-width: 1400px){
+    #home{
+        background: url(./../img/home.png) no-repeat ;
+        background-size: 100%  86%;
+        min-height: 100vh;
+    }
+}
+@media (min-width: 1200px){
+    #home{
+        background: url(./../img/home.png) no-repeat ;
+        background-size: 100%  90%;
+        min-height: 100vh;
+    }
+}
