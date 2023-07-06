@@ -22,31 +22,33 @@
 <body>
 
 <header id="home">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light transparent">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#"><img src="./assets/img/logotipo.png" alt=""></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mx-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Início</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Serviço</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Sobre nós</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contato</a>
-                    </li>
-                </ul>
-                <button class="btn ml-auto">Entre em contato</button>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light transparent">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="./assets/img/logotipo.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Início</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Serviço</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Sobre nós</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contato</a>
+                        </li>
+                    </ul>
+                    <button class="btn ml-auto">Entre em contato</button>
+                </div>
             </div>
-        </div>
-    </nav>
+        </nav>
+    </div>
 
     <div class="position-relative grid-header container">
         <div class="row ">
@@ -85,11 +87,11 @@
 
 <section id="proposal" class="d-flex align-items-center justify-content-center">
 
-    <div class="grid-proposal">
-       
-        
-        
-    </div>
+
+
+    <div style="padding: 200px;">Carousel</div>
+
+
 
 </section>
 
@@ -134,35 +136,100 @@
             <img src="./assets/img/about.png" alt="">
         </div>
         <div class="col-6">
-            <h2>Sobre nós</h2>
-            <p>
-                Nossa empresa oferece consultoria em TI há mais de 20 anos, com foco em empresas e escritórios de diversos segmentos. Contamos com uma equipe de profissionais certificados pela Microsoft e experientes no mercado.
-                Nosso objetivo é gerenciar o parque tecnológico da sua empresa paraque você possa se concentrar no seu negócio. Recebemos uma demanda especial de escritórios de contabilidade, advocacia e imobiliárias devido às mudanças tecnológicas e legislação tributária. 
-            </p>
-            <p>
-                Conte conosco para soluções tecnológicas eficientes e atualizadas. Estamos prontos para ajudar e garantir o sucesso dos nossos clientes.
-            </p>
+            <div class="about">
+                <h2>Sobre nós</h2>
+                <p>
+                    Nossa empresa oferece consultoria em TI há mais de 20 anos, com foco em empresas e escritórios de diversos segmentos. Contamos com uma equipe de profissionais certificados pela Microsoft e experientes no mercado.
+                    Nosso objetivo é gerenciar o parque tecnológico da sua empresa paraque você possa se concentrar no seu negócio. Recebemos uma demanda especial de escritórios de contabilidade, advocacia e imobiliárias devido às mudanças tecnológicas e legislação tributária. 
+                </p>
+                <p>
+                    Conte conosco para soluções tecnológicas eficientes e atualizadas. Estamos prontos para ajudar e garantir o sucesso dos nossos clientes.
+                </p>
+            </div>
         </div>
     </div>
 
 </section>
 
-<section id="feedback" class="d-flex justify-content-center">
-    
-    <h2 class="text-center">Quer saber o que nossos clientes falam sobre nós? Confira os depoimentos abaixo!</h2>
-    <div class="row">
+<section id="feedback" class="">
+    <div>
+        <h2 class="text-center">Quer saber o que nossos clientes falam sobre nós? Confira os depoimentos abaixo!</h2>
+    </div>
 
+    <div class="row">
+        <div class="col-4 text-center">
+            <div>
+                <img src="./assets/img/fb1.png" alt="">
+                <h4>Gustavo Andrade</h4>
+                <p>Empresa excelente na área de TI. Sempre que preciso sou bem atendido, bastante atenciosos e resolvem o problema.</p>
+            </div>
+        </div>
+        <div class="col-4 text-center">
+            <div>
+                <img src="./assets/img/fb2.png" alt="">
+                <h4>Ana</h4>
+                <p>Recomendo. Prestam serviço de qualidade e excelência.</p>
+            </div>
+        </div>
+        <div class="col-4 text-center">
+            <div>
+                <img src="./assets/img/fb3.png" alt="">
+                <h4>Eduardo</h4>
+                <p>Excelente empresa. Profissionalismo, competência, comprometimento.</p>
+            </div>
+        </div>
     </div>
 </section>
 
 <section class="d-flex align-items-center justify-content-center" style="margin-top: 200px;">
-    <img src="./assets/img/chamada.png" alt="">
+    <div class="team_contact">
+        <div class="text_team_contact">
+            <h3>Fale com a nossa equipe!</h3>
+            <p>Estamos ansiosos para conversar com você</p>
+            <a href=""><button class="btnred"><img src="" alt="">WhatsApp</button></a>
+        </div>
+    </div>
 </section>
 
-<section id="footer">
+<footer>
+    <div id="footer" class="container">
+        <div class="row">
+            <div class="col-2">
+                <img src="./assets/img/logotipo.png" alt="">
+            </div>
+            <div class="col-3">
+                <nav>
+                    <h2>Navegação</h2>
+                    <ul>
+                        <li>Inicio</li>
+                        <li>Serviço</li>
+                        <li>Sobre nós</li>
+                        <li>Contato</li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="col-3">
+                <h2>Rede Social</h2>
+                <div>
+                    <img src="" alt="">
+                    <img src="" alt="">
+                    <img src="" alt="">
+                    <img src="" alt="">
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="contact">
+                    <h2>Contato</h2>
 
-</section>
+                </div>
+            </div>
+        </div>
+    </div>
 
+    <div id="codesdevs">
+
+    </div>
+</footer>
 </body>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
