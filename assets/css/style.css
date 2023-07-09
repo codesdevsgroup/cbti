@@ -1,13 +1,13 @@
 ﻿:root {
-    --primary-color: #19C37D;
+    --primary-color: #19c37d;
     --text-color: #363636;
     /* font-family: 'Inter', sans-serif; */
 }
-body{
+body {
     font-family: 'Poppins', sans-serif;
 }
-.btnred{
-    background-color: #E63946;
+.btnred {
+    background-color: #e63946;
     color: #fff;
     font-size: 16px;
     font-family: Inter;
@@ -17,12 +17,11 @@ body{
     text-align: left;
     padding: 8px;
     padding-inline: 20px;
-
 }
 
 /* header*/
 
-#home{
+#home {
     background: url(./../img/home.png) no-repeat;
     min-height: 100vh;
 }
@@ -41,7 +40,7 @@ body{
 }
 #home button {
     background-color: #fff;
-    color: #E63946;
+    color: #e63946;
     font-size: 16px;
     font-family: Inter;
     font-weight: 600;
@@ -51,28 +50,28 @@ body{
     padding: 8px;
     padding-inline: 20px;
 }
-.grid-header{
+.grid-header {
     margin-top: 25vh;
 }
-.text-header{
+.text-header {
     width: 560px;
     height: 358.94px;
     gap: 36px;
     color: #fff;
 }
-.text-header h2{
+.text-header h2 {
     font-size: 43px;
 }
-.text-header > p{
+.text-header > p {
     font-size: 20px;
     width: 400px;
 }
-.text-header > p:first-child{
+.text-header > p:first-child {
     font-size: 34px;
 }
 
 /* frame-status */
-#frame-status{
+#frame-status {
     height: 149px;
     background-color: #0c44ac;
     color: #fff;
@@ -89,10 +88,18 @@ body{
 
 /* proposal */
 
+#proposal {
+    padding-block: 154px 120px;
+}
 
-
-
-
+#proposal h2 {
+    color: #686060;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0 120px 80px 120px;
+}
 
 /* About */
 
@@ -100,9 +107,8 @@ body{
     margin-left: 60px;
 }
 
-
-#feedback{
-    margin-top: 80px; 
+#feedback {
+    margin-top: 80px;
 }
 
 #feedback h2 {
@@ -110,7 +116,7 @@ body{
 }
 
 /* contact */
-.team_contact{
+.team_contact {
     background-image: url(./../img/bg.png);
     width: 1124px;
     height: 393px;
@@ -120,7 +126,7 @@ body{
 /* footer */
 
 footer {
-    background: #E63946;
+    background: #e63946;
     height: 421px;
     margin-top: 80px;
     color: #fff;
