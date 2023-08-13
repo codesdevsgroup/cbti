@@ -101,15 +101,33 @@ body {
     line-height: normal;
     margin: 0 120px 80px 120px;
 }
+/* partners */
+
+#partners h2{
+	color: rgba(126, 126, 126, 1);
+	font-family: 'Poppins';
+	font-weight: 600;
+	font-size: 28px;
+	line-height: 42px;
+}
 
 /* About */
+#about {
+	margin-block: 100px;
+}
 
 #about .about {
     margin-left: 60px;
 }
 
+/* feedback */
+
 #feedback {
-    margin-top: 80px;
+  margin-top: 80px;
+	margin-bottom: 200px;
+}
+#feedback h2{
+	margin-bottom: 84px;
 }
 
 #feedback h2 {
@@ -150,6 +168,7 @@ body {
 	margin-top: -4px;
 	margin-right: 4px;
 }
+
 /* footer */
 
 footer {
@@ -157,4 +176,46 @@ footer {
     height: 421px;
     margin-top: 80px;
     color: #fff;
+}
+#footer{
+	padding-top: 96px;
+}
+footer h2{
+	font-family: Poppins;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 30px;
+
+}
+#navbar_footer{
+	margin-left: 30px;
+}
+
+#navbar_footer li{
+	margin-bottom: 16px;
+}
+
+#navbar_footer a{
+	text-decoration: none;
+	color: #fff;
+	font-family: Poppins;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 24px;
+}
+
+#rede_social{
+	margin-left: 65px;
+}
+#rede_social a{
+	text-decoration: none;
+}
+.contact p{
+	margin-bottom: 20px;
+}
+footer .contact .email{
+	margin-top: 3px;
+}
+footer .img_endereco{
+	margin-top: 9px;
 }
