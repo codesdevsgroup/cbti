@@ -1,29 +1,29 @@
 ﻿$(document).ready(function () {
-    $('.carousel').slick({
-        dots: true,
-        infinite: false,
-        speed: 500,
-        slidesToShow: 3,
-        slidesToScroll: 3,
-        responsive: [
-            {
-                breakpoint: 1024,
-                settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 2
-                }
-            },
-            {
-                breakpoint: 600,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1
-                }
-            }
-        ]
-    })
+  $('#proposal .carousel').slick({
+    dots: true,
+    infinite: false,
+    speed: 500,
+    slidesToShow: 3,
+    slidesToScroll: 3,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2
+        }
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+    ]
+  })
 
-    $('.item-card.proposal-1 h4').before(`
+  $('#proposal .item-card.proposal-1 h4').before(`
     <svg xmlns="http://www.w3.org/2000/svg" width="66" height="73" viewBox="0 0 66 73" fill="none">
       <rect width="66" height="73" rx="14" fill="#7295D6"/>
       <path d="M13.432 29.6261C13.4095 27.0806 13.8999 24.5555 14.8751 22.1965C15.8504 19.8376 17.2915 17.691 19.116 15.8813C20.9405 14.0716 23.1122 12.6345 25.5061 11.6538C27.9001 10.6731 30.4683 10.1684 33.0624 10.1692C35.6565 10.1701 38.2244 10.6764 40.6177 11.6587C43.0109 12.641 45.1816 14.0795 47.0049 15.8904C48.8282 17.7013 50.2678 19.8488 51.2415 22.2084C52.2152 24.5679 52.7039 27.0934 52.6796 29.6389" stroke="white" stroke-width="1.78914"/>
@@ -35,7 +35,7 @@
     </svg>
     `)
 
-    $('.item-card.proposal-2 h4').before(`
+  $('#proposal .item-card.proposal-2 h4').before(`
     <svg xmlns="http://www.w3.org/2000/svg" width="66" height="73" viewBox="0 0 66 73" fill="none">
       <rect width="66" height="73" rx="14" fill="#7295D6"/>
       <path d="M50.1687 41.9555C56.0679 42.3324 65.368 33.0915 52.6018 25.4961C56.1084 10.0027 28.843 3.66938 23.1895 18.0893C16.3815 17.8472 14.564 19.8179 13.3138 23.5996C1.57751 28.6448 5.54926 39.9518 14.1368 41.9555L17.9296 41.9556V55.1589H14.9955M21.1141 42.707H27.7695V57.0553M30.7393 42.707H37.3947V57.0553M40.8297 42.707H46.8052V55.1589H49.4173" stroke="white" stroke-width="0.858755" stroke-linecap="round"/>
@@ -47,7 +47,7 @@
     </svg>
     `)
 
-    $('.item-card.proposal-3 h4').before(`
+  $('#proposal .item-card.proposal-3 h4').before(`
     <svg xmlns="http://www.w3.org/2000/svg" width="67" height="73" viewBox="0 0 67 73" fill="none">
       <rect x="0.691406" width="66" height="73" rx="14" fill="#7295D6"/>
       <circle cx="34.075" cy="36.7698" r="15.9562" stroke="white" stroke-width="1.2274"/>
@@ -64,7 +64,7 @@
     </svg>
     `)
 
-    $('.item-card.proposal-4 h4').before(`
+  $('#proposal .item-card.proposal-4 h4').before(`
     <svg xmlns="http://www.w3.org/2000/svg" width="66" height="73" viewBox="0 0 66 73" fill="none">
       <rect width="66" height="73" rx="14" fill="#7295D6"/>
       <rect x="17.43" y="20.43" width="31.14" height="31.14" rx="3.57" stroke="white" stroke-width="0.86"/>
@@ -76,7 +76,7 @@
     </svg>
     `)
 
-    $('.item-card.proposal-5 h4').before(`
+  $('#proposal .item-card.proposal-5 h4').before(`
     <svg xmlns="http://www.w3.org/2000/svg" width="66" height="73" viewBox="0 0 66 73" fill="none">
       <rect width="66" height="73" rx="14" fill="#7295D6"/>
       <rect x="15.6" y="24.5999" width="34.8" height="34.8" rx="4.2" stroke="white" stroke-width="1.2"/>
@@ -87,7 +87,7 @@
     </svg>
     `)
 
-    $('.item-card.proposal-6 h4').before(`
+  $('#proposal .item-card.proposal-6 h4').before(`
     <svg xmlns="http://www.w3.org/2000/svg" width="66" height="73" viewBox="0 0 66 73" fill="none">
       <rect width="66" height="73" rx="14" fill="#7295D6"/>
       <path d="M17.0588 53.9412H11.4118C10.6321 53.9412 10 53.3091 10 52.5294V14.4118C10 13.6321 10.6321 13 11.4118 13H53.7647C54.5444 13 55.1765 13.6321 55.1765 14.4118V52.5294C55.1765 53.3091 54.5444 53.9412 53.7647 53.9412H48.1176" stroke="white"/>
@@ -101,7 +101,7 @@
     </svg>
     `)
 
-    $('.item-card.proposal-7 h4').before(`
+  $('#proposal .item-card.proposal-7 h4').before(`
     <svg width="66" height="73" viewBox="0 0 66 73" fill="none" xmlns="http://www.w3.org/2000/svg">
       <rect width="66" height="73" rx="14" fill="#7295D6"/>
       <path d="M9.28676 19.2941C9.28676 18.1855 10.1855 17.2868 11.2941 17.2868H34.2353C35.3439 17.2868 36.2426 18.1855 36.2426 19.2941V54.8529C36.2426 55.3281 35.8575 55.7132 35.3824 55.7132H11.2941C10.1855 55.7132 9.28676 54.8145 9.28676 53.7059V19.2941Z" stroke="white" stroke-width="0.573529"/>
@@ -129,7 +129,7 @@
     </svg>    
     `)
 
-    $('.item-card.proposal-8 h4').before(`
+  $('#proposal .item-card.proposal-8 h4').before(`
     <svg width="66" height="73" viewBox="0 0 66 73" fill="none" xmlns="http://www.w3.org/2000/svg">
       <rect width="66" height="73" rx="14" fill="#7295D6"/>
       <path d="M21.8868 43.0357V54.5656M29.6214 43.0357V54.5656" stroke="white" stroke-width="0.690071" stroke-linecap="round"/>
@@ -152,7 +152,7 @@
     </svg>       
     `)
 
-    $('.item-card.proposal-9 h4').before(`
+  $('#proposal .item-card.proposal-9 h4').before(`
     <svg width="66" height="73" viewBox="0 0 66 73" fill="none" xmlns="http://www.w3.org/2000/svg">
       <rect width="66" height="73" rx="14" fill="#7295D6"/>
       <path d="M26.0276 34.0384C25.7991 33.6196 25.485 33.3007 25.0852 33.0818C24.6854 32.8629 24.2189 32.7534 23.6859 32.7534C23.0957 32.7534 22.5722 32.8867 22.1152 33.1532C21.6583 33.4197 21.3014 33.8005 21.0444 34.2955C20.7874 34.7904 20.6588 35.3616 20.6588 36.0089C20.6588 36.6752 20.7874 37.2559 21.0444 37.7509C21.3109 38.2458 21.6774 38.6266 22.1438 38.8931C22.6102 39.1597 23.1528 39.2929 23.7716 39.2929C24.5331 39.2929 25.1566 39.093 25.642 38.6932C26.1275 38.2839 26.4464 37.7175 26.5987 36.9941H23.1719V35.4663H28.5691V37.2083C28.4359 37.9032 28.1503 38.5457 27.7124 39.1359C27.2745 39.726 26.7082 40.202 26.0133 40.5637C25.3279 40.9159 24.5569 41.092 23.7002 41.092C22.7387 41.092 21.8678 40.8778 21.0872 40.4495C20.3162 40.0116 19.7069 39.4072 19.2596 38.6361C18.8217 37.8651 18.6027 36.9893 18.6027 36.0089C18.6027 35.0284 18.8217 34.1527 19.2596 33.3816C19.7069 32.6011 20.3162 31.9966 21.0872 31.5683C21.8678 31.1304 22.734 30.9115 23.6859 30.9115C24.8091 30.9115 25.7848 31.1875 26.613 31.7396C27.4411 32.2822 28.0123 33.0485 28.3264 34.0384H26.0276ZM32.047 32.6534V35.1522H35.4025V36.7371H32.047V39.3786H35.8308V41.0063H30.0481V31.0257H35.8308V32.6534H32.047ZM41.1314 31.04C42.1785 31.04 43.0971 31.2446 43.8871 31.6539C44.6867 32.0633 45.3007 32.6487 45.7291 33.4102C46.1669 34.1622 46.3859 35.0379 46.3859 36.0374C46.3859 37.0369 46.1669 37.9127 45.7291 38.6647C45.3007 39.4072 44.6867 39.9831 43.8871 40.3924C43.0971 40.8017 42.1785 41.0063 41.1314 41.0063H37.6475V31.04H41.1314ZM41.06 39.3072C42.1071 39.3072 42.9162 39.0216 43.4873 38.4505C44.0585 37.8794 44.3441 37.075 44.3441 36.0374C44.3441 34.9999 44.0585 34.1908 43.4873 33.6101C42.9162 33.0199 42.1071 32.7248 41.06 32.7248H39.6464V39.3072H41.06Z" fill="white"/>
@@ -160,4 +160,38 @@
       <path d="M16.4368 27.3797H15.5444C13.5729 27.3797 11.9747 28.9779 11.9747 30.9493V30.9493M11.9747 32.7341V34.8164" stroke="white" stroke-width="0.594937" stroke-linecap="round"/>
     </svg>         
     `)
+})
+
+$(document).ready(function () {
+  $('#partners .carousel').slick({
+    infinite: true,
+    speed: 500,
+    slidesToShow: 6,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 3000,
+    arrows: false,
+    easing: true,
+    initialSlide: 2,
+    responsive: [
+      {
+        breakpoint: 1366,
+        settings: {
+          slidesToShow: 4
+        }
+      },
+      {
+        breakpoint: 992,
+        settings: {
+          slidesToShow: 3
+        }
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 2
+        }
+      }
+    ]
+  })
 })
