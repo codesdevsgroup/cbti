@@ -17,7 +17,7 @@
 
 	/* Home */
 	.grid-header {
-		margin-top: 10vh;
+		margin-top: 5vh;
 	}
 	.text-header > p:first-child {
 		font-size: 24px;
@@ -25,5 +25,11 @@
 	.text-header h2 {
 		font-size: 32px;
 	}
-	
+	.text-header > p {
+		font-size: 20px;
+		width: 440px;
+	}	
+	.grid-header img{
+		width: 110%;
+	}
 }
