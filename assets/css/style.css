@@ -1,105 +1,105 @@
 ﻿:root {
-    --primary-color: #19c37d;
-    --text-color: #363636;
-    /* font-family: 'Inter', sans-serif; */
+	--primary-color: #19c37d;
+	--text-color: #363636;
+	/* font-family: 'Inter', sans-serif; */
 }
 body {
-    font-family: 'Poppins', sans-serif;
-		overflow: overlay;
+	font-family: 'Poppins', sans-serif;
+	overflow: overlay;
 }
 .btnred {
-    background-color: #e63946;
-    color: #fff;
-    font-size: 16px;
-    font-family: Inter;
-    font-weight: 600;
-    line-height: 19px;
-    letter-spacing: 0em;
-    text-align: left;
-    padding: 8px;
-    padding-inline: 20px;
+	background-color: #e63946;
+	color: #fff;
+	font-size: 16px;
+	font-family: Inter;
+	font-weight: 600;
+	line-height: 19px;
+	letter-spacing: 0em;
+	text-align: left;
+	padding: 8px;
+	padding-inline: 20px;
 }
 
 /* header*/
 
 #home {
-    background: url(./../img/home.png) no-repeat;
-    min-height: 100vh;
+	background: url(./../img/home.png) no-repeat;
+	min-height: 100vh;
 }
 .navbar.transparent {
-    background-color: transparent !important;
-    box-shadow: none !important;
-    padding-top: 10px;
-    padding-bottom: 10px;
+	background-color: transparent !important;
+	box-shadow: none !important;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 .navbar button {
-    margin-right: 40px;
+	margin-right: 40px;
 }
 .navbar a {
-    color: #fff;
-    font-size: 24px;
+	color: #fff;
+	font-size: 24px;
 }
 #home button {
-    background-color: #fff;
-    color: #e63946;
-    font-size: 16px;
-    font-family: Inter;
-    font-weight: 600;
-    line-height: 19px;
-    letter-spacing: 0em;
-    text-align: left;
-    padding: 8px;
-    padding-inline: 20px;
+	background-color: #fff;
+	color: #e63946;
+	font-size: 16px;
+	font-family: Inter;
+	font-weight: 600;
+	line-height: 19px;
+	letter-spacing: 0em;
+	text-align: left;
+	padding: 8px;
+	padding-inline: 20px;
 }
 .grid-header {
-    margin-top: 25vh;
+	margin-top: 25vh;
 }
 .text-header {
-    width: 560px;
-    height: 358.94px;
-    gap: 36px;
-    color: #fff;
+	width: 560px;
+	height: 358.94px;
+	gap: 36px;
+	color: #fff;
 }
 .text-header h2 {
     font-size: 43px;
 }
 .text-header > p {
-    font-size: 20px;
-    width: 400px;
+	font-size: 20px;
+	width: 400px;
 }
 .text-header > p:first-child {
-    font-size: 34px;
+	font-size: 34px;
 }
 
 /* frame-status */
 #frame-status {
-    height: 149px;
-    background-color: #0c44ac;
-    color: #fff;
+	height: 149px;
+	background-color: #0c44ac;
+	color: #fff;
 }
 #frame-status p {
-    font-size: 50px;
-    padding: 0;
-    margin-bottom: 0;
-    margin-top: 24px;
+	font-size: 50px;
+	padding: 0;
+	margin-bottom: 0;
+	margin-top: 24px;
 }
 #frame-status h5 {
-    font-size: 16px;
+	font-size: 16px;
 }
 
 /* proposal */
 
 #proposal {
-    padding-block: 154px 120px;
+	padding-block: 154px 120px;
 }
 
 #proposal h2 {
-    color: #686060;
-    text-align: center;
-    font-size: 36px;
-    font-weight: 600;
-    line-height: normal;
-    margin: 0 120px 80px 120px;
+	color: #686060;
+	text-align: center;
+	font-size: 36px;
+	font-weight: 600;
+	line-height: normal;
+	margin: 0 120px 80px 120px;
 }
 /* partners */
 
@@ -117,7 +117,7 @@ body {
 }
 
 #about .about {
-    margin-left: 60px;
+  margin-left: 60px;
 }
 
 /* feedback */
@@ -136,15 +136,14 @@ body {
 
 /* contact */
 .team_contact {
-    background-image: url(./../img/bg.png);
-    width: 1124px;
-    height: 393px;
-    color: #fff;
-
+  background-image: url(./../img/bg.png);
+  width: 1124px;
+  height: 393px;
+  color: #fff;
 	}
 .text_team_contact {
-    margin-left: 510px;
-    margin-top: 113px;
+  margin-left: 510px;
+  margin-top: 113px;
 }
 
 .text_team_contact h3{
@@ -172,10 +171,10 @@ body {
 /* footer */
 
 footer {
-    background: #e63946;
-    height: 421px;
-    margin-top: 80px;
-    color: #fff;
+  background: #e63946;
+	height: 421px;
+	margin-top: 80px;
+  color: #fff;
 }
 #footer{
 	padding-top: 96px;
