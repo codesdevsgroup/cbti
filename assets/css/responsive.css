@@ -32,4 +32,18 @@
 	.grid-header img{
 		width: 110%;
 	}
+
+	/* Proposal */
+	
+	#proposal {
+		padding-block: 80px;
+	}
+
+	#proposal h2 {
+		font-size: 25px;
+		margin: auto;
+		width: 350px;
+		height: 132px;
+		margin-bottom: 42px;
+	}
 }
