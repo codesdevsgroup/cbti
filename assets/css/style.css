@@ -150,6 +150,7 @@ body {
 }
 
 /* Contact us */
+
 .team_contact {
   background-image: url(./../img/bg.png);
   width: 1124px;
@@ -232,4 +233,18 @@ footer .contact .email{
 }
 footer .img_endereco{
 	margin-top: 9px;
+}
+
+/* botão de whatsapp */
+.whatsapp-button {
+	position: fixed;
+	bottom: 20px; /* Ajuste a posição vertical conforme necessário */
+	right: 20px; /* Ajuste a posição horizontal conforme necessário */
+	z-index: 9999; /* Garante que o botão esteja acima de outros elementos */
+}
+
+.whatsapp-button img {
+	width: 60px; /* Tamanho da imagem do botão */
+	height: auto;
+	border: none;
 }

@@ -33,6 +33,11 @@
 		width: 110%;
 	}
 	
+
+	.inverter {
+		flex-direction: row-reverse;
+	}
+
 	/* Proposal */
 	
 	#proposal {
