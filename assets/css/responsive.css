@@ -32,7 +32,7 @@
 	.grid-header img{
 		width: 110%;
 	}
-
+	
 	/* Proposal */
 	
 	#proposal {
@@ -46,4 +46,14 @@
 		height: 132px;
 		margin-bottom: 42px;
 	}
+
+	/* feedback */
+
+	#feedback h2{
+		width: auto;
+		font-size: 24px;
+		font-weight: 600;
+		line-height: 36px;
+	}
+
 }
