@@ -14,8 +14,9 @@
         }
       },
       {
-        breakpoint: 600,
+        breakpoint: 780,
         settings: {
+          infinite: true,
           slidesToShow: 1,
           slidesToScroll: 1
         }

@@ -102,3 +102,24 @@
     min-height: 400px;
   }
 }
+
+@media (max-width: 780px) {
+  .carousel .slick-dots {
+    bottom: -30px;
+  }
+  .carousel .slick-dots li,
+  .carousel .slick-dots li button {
+    width: 10px;
+    height: 10px;
+  }
+  .carousel .slick-track .item-wrapper {
+    justify-content: center;
+    display: flex;
+  }
+  .carousel .slick-dots li button::before {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    top: 0;
+  }
+}
