@@ -31,6 +31,10 @@ button {
   font-family: 'Poppins', sans-serif;
 }
 
+.scroll nav { 
+  background-color: #e63946!important;
+}
+
 /* header*/
 
 #navigation {
@@ -53,7 +57,7 @@ button {
 }
 
 .navbar.transparent {
-  background-color: transparent !important;
+  background-color: transparent;
   box-shadow: none !important;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -287,8 +291,8 @@ footer .img_endereco {
 /* botão de whatsapp */
 .whatsapp-button {
   position: fixed;
-  bottom: 20px; /* Ajuste a posição vertical conforme necessário */
-  right: 20px; /* Ajuste a posição horizontal conforme necessário */
+  bottom: 5px; /* Ajuste a posição vertical conforme necessário */
+  right: 80px; /* Ajuste a posição horizontal conforme necessário */
   z-index: 9999; /* Garante que o botão esteja acima de outros elementos */
 }
 
@@ -296,4 +300,18 @@ footer .img_endereco {
   width: 60px; /* Tamanho da imagem do botão */
   height: auto;
   border: none;
+}
+
+#backToTopButton {
+  position: fixed;
+  bottom: -26px;
+  right: 26px;
+}
+
+
+#backToTopButton {
+  display: none;
+  position: fixed;
+  bottom: 15px;
+  right: 26px;
 }
