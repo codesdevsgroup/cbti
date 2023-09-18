@@ -92,6 +92,7 @@ button {
   text-align: left;
   padding: 8px;
   padding-inline: 20px;
+  margin-top: 20px;
 }
 
 .grid-header {
@@ -105,17 +106,17 @@ button {
   color: #fff;
   margin-bottom: 140px;
 }
-.text-header h2 {
-  font-size: 43px;
+.text-header h1 {
+  font-size: 60px;
   font-weight: 600;
-  margin-bottom: 16px;
+  margin-bottom: 12px;
   line-height: normal;
 }
 .text-header > p {
   font-size: 20px;
   width: 435px;
-  margin-bottom: 32px;
 }
+
 .text-header > p:first-child {
   font-size: 28px;
   font-weight: 500;
@@ -132,6 +133,41 @@ button {
 
 .img-home-mobile {
   display: none;
+}
+
+/* Animação do cursor na home */
+
+#container {
+  display: flex;
+}
+
+#textoDigitado {
+  white-space: nowrap;
+  overflow: hidden;
+  display: inline-block;
+}
+
+#cursor {
+  animation: blink-caret 0.5s step-end infinite;
+}
+
+@keyframes typing {
+  from {
+      width: 0;
+  }
+  to {
+      width: 100%;
+  }
+}
+
+@keyframes blink-caret {
+  from,
+  to {
+      visibility: visible;
+  }
+  50% {
+      visibility: hidden;
+  }
 }
 
 /* #frame  */

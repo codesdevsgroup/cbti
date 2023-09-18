@@ -52,8 +52,8 @@
     width: auto;
     margin-bottom: 16px;
   }
-  .text-header h2 {
-    font-size: 26px;
+  .text-header h1 {
+    font-size: 40px;
     width: auto;
   }
   .text-header > p {
@@ -129,6 +129,7 @@
   /* contact us */
   .team_contact {
     background-image: url(./../img/contactmobi.png);
+    background-repeat: no-repeat;
     width: 387px;
     height: 674px;
     border-radius: 40px;

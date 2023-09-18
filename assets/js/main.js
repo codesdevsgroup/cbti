@@ -35,3 +35,52 @@ $(window).scroll(function() {
   showBackTopButtonOnScroll()
   showWhatsAppButtonOnScroll()
 });
+
+
+/* Animação do texto da home */
+
+const topics = [
+  "HARDWARE",
+  "CONSULTORIA EM TI",
+  "AVALIAÇÃO DE SEGURANÇA",
+  "OUTSOURCING/CONTRATOS",
+  "AVALIAÇÃO DE SEGURANÇA",
+  "OUTSOURCING/CONTRATOS",
+  "VIRTUALIZAÇÃO",
+  "CLOUD"
+];
+
+const textoDigitado = document.getElementById("textoDigitado");
+const cursor = document.getElementById("cursor");
+
+function typeText(index, charIndex) {
+  if (charIndex < topics[index].length) {
+      const topic = topics[index];
+      const char = topic.charAt(charIndex);
+      textoDigitado.textContent += char;
+      setTimeout(function () {
+          typeText(index, charIndex + 1);
+      }, 100); // Intervalo de 100ms entre cada caractere
+  } else {
+      setTimeout(function () {
+          eraseText(index, topics[index].length - 1);
+      }, 1000); // 1000ms de pausa após digitar o texto
+  }
+}
+
+function eraseText(index, charIndex) {
+  if (charIndex >= 0) {
+      const topic = topics[index];
+      textoDigitado.textContent = topic.substring(0, charIndex);
+      setTimeout(function () {
+          eraseText(index, charIndex - 1);
+      }, 20); // Intervalo de 20ms entre apagar cada caractere (mais rápido)
+  } else {
+      setTimeout(function () {
+          const nextIndex = (index + 1) % topics.length;
+          typeText(nextIndex, 0);
+      }, 1100); // 1000ms de pausa após apagar o texto
+  }
+}
+
+typeText(0, 0);
