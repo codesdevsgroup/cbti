@@ -1,4 +1,18 @@
-﻿window.addEventListener('scroll', onScroll)
+﻿/* Version assets */
+
+$(document).ready(function() {
+  var versao = '3'; // alterar a versão aqui
+  
+  $('link[rel="stylesheet"]').attr('href', function() {
+      return this.href + '?v=' + versao;
+  });
+
+  $('script[src]').attr('src', function() {
+      return this.src + '?v=' + versao;
+  });
+});
+
+window.addEventListener('scroll', onScroll)
 
 onScroll()
 function onScroll() {
