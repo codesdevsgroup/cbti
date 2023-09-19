@@ -163,4 +163,30 @@
   footer {
     height: auto;
   }
+  #footer {
+    padding-top: 90px;
+    padding-inline: 0;
+    width: 363px;
+    
+    margin-left: 25px;
+  }
+  #footer .row > *{
+    padding: 0;
+  }
+  #navbar_footer {
+    margin-left: 0px;
+  }
+  #rede_social {
+    margin-left: 0px;
+    margin-bottom: 32PX;
+  }
+  .logo_footer{
+    margin-bottom: 32px;
+  }
+  #navbar_footer li {
+    margin-bottom: 24px;
+  }
+  #rede_social {
+    margin-top: 8px;
+  }
 }
