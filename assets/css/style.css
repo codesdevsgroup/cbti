@@ -169,6 +169,11 @@ button {
       visibility: hidden;
   }
 }
+
+#proposal{
+  margin-bottom: 160px;
+}
+
 /* graficos animados */
 
 .graphics {
@@ -211,9 +216,16 @@ button {
   width: 482px;
   height: 380px;
   margin-left: 162px;
+  margin-top: 52.5px;
 }
 
-/* inicio de barra progressiva */
+/* barra progressiva */
+
+#graphics .grid_graphics p{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  color: #686060;
+}
 
 .progress {
   height: 24px;
@@ -224,20 +236,97 @@ button {
   border: 1px solid #0C44AC;
 }
 
+#graphics .progress p {
+  color: #0C44AC;
+  padding-left: 447px;
+  font-size: 14px;
+  font-weight: 500px;
+}
+
 .progress .progress-bar {
   position: absolute;
   height: 100%;
   background-color: #0C44AC;
-  animation: progress-animation 6s forwards;
+  border-radius: 12px;
   animation-play-state: paused; /* Inicia a animação em pausa */
 }
 
-@keyframes progress-animation {
+.progress .pb1 {
+  animation: progress-animationpb1 6s forwards;
+}
+.progress .pb2 {
+  animation: progress-animationpb2 6s forwards;
+}
+.progress .pb3 {
+  animation: progress-animationpb3 6s forwards;
+}
+.progress .pb4 {
+  animation: progress-animationpb4 6s forwards;
+}
+.progress .pb5 {
+  animation: progress-animationpb5 6s forwards;
+}
+.progress .pb6 {
+  animation: progress-animationpb6 6s forwards;
+}
+.progress .pb7 {
+  animation: progress-animationpb7 6s forwards;
+}
+
+@keyframes progress-animationpb1 {
   0% {
     width: 0%;
   }
   100% {
-    width: 100%;
+    width: 88%;
+  }
+}
+@keyframes progress-animationpb2 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 82%;
+  }
+}
+@keyframes progress-animationpb3 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 79%;
+  }
+}
+@keyframes progress-animationpb4 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 92%;
+  }
+}
+@keyframes progress-animationpb5 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 89%;
+  }
+}
+@keyframes progress-animationpb6 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 93%;
+  }
+}
+@keyframes progress-animationpb7 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 89%;
   }
 }
 
