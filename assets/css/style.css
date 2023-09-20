@@ -239,8 +239,9 @@ button {
 #graphics .progress p {
   color: #0C44AC;
   padding-left: 447px;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 500px;
+  margin-top: 3px;
 }
 
 .progress .progress-bar {
@@ -252,25 +253,25 @@ button {
 }
 
 .progress .pb1 {
-  animation: progress-animationpb1 6s forwards;
+  animation: progress-animationpb1 5s forwards;
 }
 .progress .pb2 {
-  animation: progress-animationpb2 6s forwards;
+  animation: progress-animationpb2 5s forwards;
 }
 .progress .pb3 {
-  animation: progress-animationpb3 6s forwards;
+  animation: progress-animationpb3 5s forwards;
 }
 .progress .pb4 {
-  animation: progress-animationpb4 6s forwards;
+  animation: progress-animationpb4 5s forwards;
 }
 .progress .pb5 {
-  animation: progress-animationpb5 6s forwards;
+  animation: progress-animationpb5 5s forwards;
 }
 .progress .pb6 {
-  animation: progress-animationpb6 6s forwards;
+  animation: progress-animationpb6 5s forwards;
 }
 .progress .pb7 {
-  animation: progress-animationpb7 6s forwards;
+  animation: progress-animationpb7 5s forwards;
 }
 
 @keyframes progress-animationpb1 {
