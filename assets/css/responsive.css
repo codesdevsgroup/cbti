@@ -43,6 +43,9 @@
 }
 
 @media (max-width: 768px) {
+  #navigation ul {
+    background-color: #ca3341 !important;
+  }
   /* Home */
   .grid-header {
     margin-top: 5vh;
@@ -116,6 +119,19 @@
   #frame2 {
     margin-top: 70px;
   }
+  
+  /* about */
+  #about {
+    margin-top: 0px;
+    margin-bottom: 64px;
+  }
+
+  #about .about{
+    width: 360px;
+    font-size: 16.91px;
+    font-weight: 400;
+    line-height: 25.37px;
+  }
 
   /* feedback */
 
@@ -125,8 +141,17 @@
     font-weight: 600;
     line-height: 36px;
   }
+  #feedback {
+    margin-top: 0px;
+    margin-bottom: 64px;
+  }
+
+  #feedback h2 {
+    margin-bottom: 60px;
+  }
 
   /* contact us */
+
   .team_contact {
     background-image: url(./../img/contactmobi.png);
     background-repeat: no-repeat;
@@ -187,5 +212,8 @@
   }
   #rede_social {
     margin-top: 8px;
+  }
+  .codesdevs{
+    width: 383px;
   }
 }

@@ -62,7 +62,8 @@ button {
   padding-top: 10px;
   padding-bottom: 10px;
 }
-.navbar button {
+
+#navigation .navbar button {
   margin-right: 40px;
   background-color: #fff;
   color: #e63946;
@@ -73,6 +74,12 @@ button {
   text-align: left;
   padding: 8px;
   padding-inline: 20px;
+}
+#navigation .navbar button:hover {
+  color: #fff;
+  background-color: transparent;
+  transform: scale(1.1);
+  border: 1px solid #fff;
 }
 
 #home {
@@ -93,6 +100,13 @@ button {
   padding: 8px;
   padding-inline: 20px;
   margin-top: 20px;
+}
+
+#home button:hover {
+color: #fff;
+background-color: transparent;
+transform: scale(1.1);
+border: 1px solid #fff;
 }
 
 .grid-header {
@@ -492,6 +506,20 @@ footer h2 {
 }
 footer .contact .email {
   margin-top: 3px;
+}
+
+/* Codes Devs */
+
+.codesdevs{
+  box-sizing: border-box;
+  border-top: 1px solid #FFFFFF;
+  width: 1129px;
+  margin: auto;
+  margin-top: 70px;
+}
+.codesdevs a {
+  text-decoration: none;
+  color: #fff;
 }
 
 /* botão de whatsapp */
