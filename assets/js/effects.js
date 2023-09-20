@@ -1,4 +1,4 @@
-window.sr = ScrollReveal({ reset: false })
+window.sr = ScrollReveal({ reset: true })
 
 sr.reveal(
   `

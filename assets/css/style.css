@@ -5,7 +5,7 @@
 }
 body {
   font-family: 'Poppins', sans-serif;
-  overflow: overlay;
+  overflow-x: hidden;
 }
 .btnred {
   background-color: #e63946;
