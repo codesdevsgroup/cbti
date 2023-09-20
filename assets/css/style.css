@@ -55,7 +55,9 @@ button {
   font-size: 18px;
   font-weight: 500;
 }
-
+#navigation ul li a:hover {
+  transform: scale(1.15);
+}
 .navbar.transparent {
   background-color: transparent;
   box-shadow: none !important;
@@ -462,6 +464,12 @@ border: 1px solid #fff;
   margin-top: -4px;
   margin-right: 4px;
 }
+.text_team_contact button:hover {
+  color: #fff;
+  background-color: transparent;
+  transform: scale(1.1);
+  border: 1px solid #fff;
+}
 
 /* footer */
 
@@ -479,6 +487,10 @@ footer h2 {
   font-weight: 600;
   line-height: 30px;
 }
+#footer #navbar_footer li:hover {
+  transform: scale(1.1);
+}
+
 #navbar_footer {
   margin-left: 30px;
 }
