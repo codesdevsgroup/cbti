@@ -36,7 +36,10 @@ button {
 }
 
 /* header*/
-
+header > .container {
+  padding-right: calc(var(--bs-gutter-x) * 0);
+  padding-left: calc(var(--bs-gutter-x) * 0);
+}
 #navigation {
   position: absolute;
   top: 0;
