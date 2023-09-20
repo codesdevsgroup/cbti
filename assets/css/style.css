@@ -388,11 +388,21 @@ button {
 
 /* About */
 #about {
-  margin-block: 100px;
+  margin-top: 104px;
+  margin-bottom: 144px;
 }
-
-#about .about {
-  margin-left: 60px;
+#about .about{
+  width: 511px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: #686060;
+}
+#about .about h2{
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 54px;
 }
 
 /* feedback */
