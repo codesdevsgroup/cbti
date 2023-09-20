@@ -98,3 +98,34 @@ function eraseText(index, charIndex) {
 }
 
 typeText(0, 0);
+
+
+// Função para iniciar a animação da barra de progresso com um offset
+function iniciarAnimacaoComOffset() {
+  const progressBars = document.querySelectorAll('.progress-bar');
+
+  // Verifica se a seção "graphics" está visível na tela com um offset
+  const graphicsSection = document.getElementById('graphics');
+  const offset = 100; // Ajuste o valor do offset conforme necessário
+
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting || entry.intersectionRatio > 0) {
+        // Se a seção "graphics" estiver visível com um offset, inicia a animação
+        progressBars.forEach(bar => {
+          bar.style.animationPlayState = 'running';
+        });
+      } else {
+        // Se a seção "graphics" não estiver visível com um offset, pausa a animação
+        progressBars.forEach(bar => {
+          bar.style.animationPlayState = 'paused';
+        });
+      }
+    });
+  }, { rootMargin: `-${offset}px 500px 500px 500px` }); // Aplique o offset desejado
+
+  observer.observe(graphicsSection);
+}
+
+// Chama a função quando o documento estiver pronto
+document.addEventListener('DOMContentLoaded', iniciarAnimacaoComOffset);
