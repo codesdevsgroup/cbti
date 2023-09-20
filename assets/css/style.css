@@ -175,10 +175,12 @@ button {
 }
 
 /* graficos animados */
-
+#graphics {
+  margin-bottom: 97px;
+}
 .graphics {
   width: 1126px;
-  margin-top: 80px;
+  margin-inline: auto;
 }
 
 .graphics .grid_text{
@@ -205,7 +207,7 @@ button {
 
 .grid_graphics{
   width: 1126px;
-  
+  margin-inline: auto;
 }
 .grid_graphics .grid_a{
   width: 482px;
@@ -238,7 +240,7 @@ button {
 
 #graphics .progress p {
   color: #0C44AC;
-  padding-left: 447px;
+  padding-left: 448.7px;
   font-size: 12px;
   font-weight: 500px;
   margin-top: 3px;
