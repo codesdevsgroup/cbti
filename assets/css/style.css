@@ -35,6 +35,11 @@ button {
   background-color: #ca3341 !important;
 }
 
+.btn-info button {
+  border-radius: 4px;
+  border-color: transparent;
+}
+
 /* header*/
 header > .container {
   padding-right: calc(var(--bs-gutter-x) * 0);
@@ -396,6 +401,7 @@ border: 1px solid #fff;
   line-height: normal;
   margin: 0 120px 80px 120px;
 }
+
 /* partners */
 
 #partners h2 {
@@ -482,7 +488,7 @@ border: 1px solid #fff;
 
 footer {
   background: #e63946;
-  height: 421px;
+  height: 435px;
   margin-top: 80px;
   color: #fff;
 }
