@@ -1,7 +1,7 @@
 ﻿/* Version assets */
 
 $(document).ready(function() {
-  var versao = '6'; // alterar a versão aqui
+  var versao = '7'; // alterar a versão aqui
   
   $('link[rel="stylesheet"]').attr('href', function() {
       return this.href + '?v=' + versao;
